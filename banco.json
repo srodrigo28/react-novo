@@ -1,0 +1,31 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "Camiseta azul",
+            "preco": 100
+        },
+        {
+            "id": 2,
+            "nome": "Camiseta preta",
+            "preco": 200
+        },
+        {
+            "id": 3,
+            "nome": "Camiseta color",
+            "preco": 300
+        }
+    ],
+    "login": [
+        {
+            "id": 1,
+            "email": "teste@gmail.com",
+            "senha": "123"
+        },
+        {
+            "id": 2,
+            "email": "teste2@gmail.com",
+            "senha": "123"
+        }
+    ]
+}
