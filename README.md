@@ -5,6 +5,9 @@ https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/l
 * 2. rota privada sucesso
     https://www.youtube.com/watch?v=mqXh4v5DYw0&t=5s
 
+* 3. Iniciando o redux+React
+    https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/learn/lecture/17401762#overview
+
 #### Dependências
 * Stylos
     Styleds Components
