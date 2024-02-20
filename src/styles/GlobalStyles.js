@@ -30,6 +30,8 @@ export default createGlobalStyle`
         padding: 10px 20px;
         border-radius: 4px;
         background: ${primaryColor};
+        margin: 10px;
+        width: 40%;
     }
 
     a{

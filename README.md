@@ -1,5 +1,11 @@
 ### Revisão Context-API Adiel
 
+#### rodando projeto
+    * 1. rodar api
+        npm run api
+    * 2. rodar o frontend
+        npm run dev
+
 https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/learn/lecture/17393776#overview
 
 * 2. rota privada sucesso
@@ -7,6 +13,9 @@ https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/l
 
 * 3. Iniciando o redux+React
     https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/learn/lecture/17401762#overview
+
+* 4. Separando Reducer
+    https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/learn/lecture/17402120#overview
 
 #### Dependências
 * Stylos
@@ -19,5 +28,6 @@ https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/l
     npm i --save-dev @types/react-router-dom
     npm i history@4.10.1
     npm i prop-types@15.7.2
-
     npm i react-toastify
+
+    npm i redux react-redux

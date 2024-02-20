@@ -6,16 +6,21 @@ import Routes from "./routes/index";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+import { Provider } from "react-redux";
+import store from "./services/store";
+
 function App() {
 
 
   return (
-    <Router>
-      <ToastContainer />
-        <Header />
-        <Routes />
-        <GlobalStyles />
-    </Router>
+    <Provider store={store}>
+      <Router>
+        <ToastContainer />
+          <Header />
+          <Routes />
+          <GlobalStyles />
+      </Router>
+    </Provider>
   )
 }
 

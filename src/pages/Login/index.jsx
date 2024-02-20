@@ -1,32 +1,39 @@
 import { Container } from "../../styles/GlobalStyles";
-import { Paragrafo, Title } from "./styled";
+import { Input, Title } from "./styled";
 import { toast } from 'react-toastify';
-
-import axios from "../../services/axios";
-import { useEffect } from "react";
+import { useDispatch } from "react-redux";
 
 export function Login(){
-    useEffect(() => {
-        async function getData(){
-            const response = await axios.get('/login');
-            const {data} = response;
-            console.log(data);
-        }
-        getData();
-    }, [])
+
+    const dispatch = useDispatch();
+
+    function handleClick(e){
+        e.preventDefault()
+
+        dispatch({
+            type: 'BOTAO_CLICADO'
+        });
+    }
+
     return(
         <Container>
             <Title>
                 Login
-                <small>Oie</small>
             </Title>
-            <Paragrafo>
-                Lorem ipsum dolor sit amet consectetur
-            </Paragrafo>
+            <Input type="text" placeholder="email" />
+            <Input type="text" placeholder="***************" />
+
+            <p>não é cadastrado?<span>  Cadastra-se</span></p>
             <button 
                 type="button"
                 onClick={ () => toast.error('Error')}
-            >Enviar</button>
+            >Enviar
+            </button>
+            <button 
+                type="button"
+                onClick={ handleClick}
+            >Enviar 2
+            </button>
         </Container>
     )
 }
