@@ -1,5 +1,6 @@
 import { Container } from "../../styles/GlobalStyles";
 import { Paragrafo, Title } from "./styled";
+import { toast } from 'react-toastify';
 
 export function Login(){
     return(
@@ -11,7 +12,10 @@ export function Login(){
             <Paragrafo>
                 Lorem ipsum dolor sit amet consectetur
             </Paragrafo>
-            <button type="button">Enviar</button>
+            <button 
+                type="button"
+                onClick={ () => toast.error('Error')}
+            >Enviar</button>
         </Container>
     )
 }

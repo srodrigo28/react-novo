@@ -2,6 +2,9 @@
 
 https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/learn/lecture/17393776#overview
 
+* 2. rota privada sucesso
+    https://www.youtube.com/watch?v=mqXh4v5DYw0&t=5s
+
 #### Dependências
 * Stylos
     Styleds Components
@@ -13,3 +16,5 @@ https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/l
     npm i --save-dev @types/react-router-dom
     npm i history@4.10.1
     npm i prop-types@15.7.2
+
+    npm i react-toastify
