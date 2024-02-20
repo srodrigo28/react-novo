@@ -8,4 +8,9 @@ export const Nav = styled.nav`
     align-items: center;
     justify-content: center;
     background: ${primaryColor};
+
+    p{
+        color: #fff;
+        font-weight: 700;
+    }
 `
