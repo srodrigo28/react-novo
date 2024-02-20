@@ -1,5 +1,8 @@
 ### Revisão Context-API Adiel
 
+* Ultimo Visto
+    https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/learn/lecture/17406396#overview
+
 #### rodando projeto
     * 1. rodar api
         npm run api
@@ -31,3 +34,5 @@ https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/l
     npm i react-toastify
 
     npm i redux react-redux
+
+    npm i redux-saga@1.1.3

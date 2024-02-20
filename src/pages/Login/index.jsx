@@ -11,7 +11,7 @@ export function Login(){
     function handleClick(e){
         e.preventDefault()
 
-        dispatch(exampleActions.clicaBotao());
+        dispatch(exampleActions.clicaBotaoRequest());
     }
 
     return(
@@ -30,7 +30,7 @@ export function Login(){
             </button>
             <button 
                 type="button"
-                onClick={ handleClick}
+                onClick={handleClick}
             >Enviar 2
             </button>
         </Container>
